@@ -219,4 +219,5 @@ for (group, student) in maxTotalScore do
 
 Для изучения встроенных функций F# пользовалась сайтами-справочниками:
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html (списки)
+
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-seqmodule.html (последовательности)
