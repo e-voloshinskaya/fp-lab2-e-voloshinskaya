@@ -2,7 +2,7 @@
 
 
 //Method 1: Library Functions
-let minProductOfNeighbours1 (lst: float list) =
+let minProductOfNeighbours1 (lst: float list) = // ой, наверное, тут надо было использовать свертку, но я только сейчас поняла
     match lst with
     | [] | [_] -> None // если список пустой или содержит только один элемент, возвращаем None
     | _ ->
