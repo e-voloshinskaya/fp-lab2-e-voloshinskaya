@@ -2,8 +2,6 @@
 
 
 //Method 1: Library Functions
-// ой, наверное, тут можно было использовать свертку, но я только сейчас поняла
-// minprod = fold f i lst, где i - int32.MaxValue, f = ?
 let minProductOfNeighbours1 (lst: float list) =
     match lst with
     | [] | [_] -> None // если список пустой или содержит только один элемент, возвращаем None
